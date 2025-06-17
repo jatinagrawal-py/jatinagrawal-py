@@ -1,0 +1,72 @@
+name: 📈 Update Dynamic README
+
+on:
+  schedule:
+    # Runs every day at 6:00 AM IST (00:30 UTC)
+    - cron: "30 0 * * *"
+  workflow_dispatch: # Allows manual trigger
+  push:
+    branches:
+      - main
+    paths:
+      - 'update-readme.js'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    name: Update README with latest stats
+    
+    steps:
+      - name: 🚀 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: 📦 Install Dependencies
+        run: |
+          npm init -y
+          npm install node-fetch@2
+
+      - name: 🔄 Run README Update Script
+        run: node update-readme.js
+
+      - name: 🐍 Generate Snake Game
+        uses: Platane/snk@v3
+        with:
+          github_user_name: jatinagrawal-py
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: 📤 Push Snake Game
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 💾 Commit Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "📈 Auto-update README with latest stats - $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+
+      - name: ✅ Success Notification
+        if: success()
+        run: |
+          echo "🎉 README updated successfully!"
+          echo "📊 Stats refreshed at $(date)"

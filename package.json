@@ -1,0 +1,27 @@
+{
+  "name": "dynamic-readme-generator",
+  "version": "1.0.0",
+  "description": "Automatically generates and updates GitHub profile README with latest competitive programming stats",
+  "main": "update-readme.js",
+  "type": "module",
+  "scripts": {
+    "update": "node update-readme.js",
+    "test": "node update-readme.js"
+  },
+  "keywords": [
+    "github",
+    "readme",
+    "competitive-programming",
+    "leetcode",
+    "codeforces",
+    "automation"
+  ],
+  "author": "Jatin Agrawal",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
