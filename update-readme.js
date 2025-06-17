@@ -6,13 +6,36 @@ async function fetchData() {
     console.log("🚀 Fetching latest stats...");
     
     // Fetch data from APIs
-    const [leetcodeResponse, codeforcesResponse] = await Promise.all([
+    const [leetcodeResponse, codeforcesResponse, cfSubmissionsResponse] = await Promise.all([
       fetch("https://leetcode-stats-api.herokuapp.com/jatin-agrawal").then(res => res.json()),
-      fetch("https://codeforces.com/api/user.info?handles=jatinagrawal0987654321").then(res => res.json())
+      fetch("https://codeforces.com/api/user.info?handles=jatinagrawal0987654321").then(res => res.json()),
+      fetch("https://codeforces.com/api/user.status?handle=jatinagrawal0987654321&from=1&count=10000").then(res => res.json())
     ]);
+
+    // Try to fetch GFG stats (unofficial scraping)
+    let gfgStats = { solved: 0, score: 0 };
+    try {
+      const gfgResponse = await fetch("https://practiceapi.geeksforgeeks.org/api/latest/user-profile/jatinagrawalbybj/");
+      if (gfgResponse.ok) {
+        const gfgData = await gfgResponse.json();
+        gfgStats = {
+          solved: gfgData.totalProblemsSolved || 0,
+          score: gfgData.totalScore || 0
+        };
+      }
+    } catch (e) {
+      console.log("GFG API not available, using placeholder");
+    }
 
     const leet = leetcodeResponse;
     const codeforces = codeforcesResponse;
+    
+    // Calculate Codeforces solved problems
+    const cfSolved = cfSubmissionsResponse.status === 'OK' ? 
+      new Set(cfSubmissionsResponse.result
+        .filter(sub => sub.verdict === 'OK')
+        .map(sub => sub.problem.contestId + sub.problem.index)
+      ).size : 0;
     
     // Calculate acceptance rate
     const acceptanceRate = leet.totalSubmissions > 0 ? 
@@ -62,22 +85,32 @@ async function fetchData() {
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%">
 
 #### 🟠 **Codeforces**
 - **Handle:** \`${codeforces.result?.[0]?.handle || 'N/A'}\`
 - **Rating:** \`${codeforces.result?.[0]?.rating || 'N/A'}\` 
 - **Rank:** \`${codeforces.result?.[0]?.rank || 'N/A'}\`
 - **Max Rating:** \`${codeforces.result?.[0]?.maxRating || 'N/A'}\`
+- **Problems Solved:** \`${cfSolved}\`
 
 </td>
-<td width="50%">
+<td width="33%">
 
 #### 🟡 **LeetCode** 
 - **Problems Solved:** \`${leet.totalSolved || 0}\`
 - **Easy:** \`${leet.easySolved || 0}\` | **Medium:** \`${leet.mediumSolved || 0}\` | **Hard:** \`${leet.hardSolved || 0}\`
 - **Global Ranking:** \`~${leet.ranking || 'N/A'}\`
 - **Acceptance Rate:** \`${acceptanceRate}%\`
+
+</td>
+<td width="33%">
+
+#### 🟢 **GeeksforGeeks**
+- **Username:** \`jatinagrawalbybj\`
+- **Problems Solved:** \`${gfgStats.solved}\`
+- **Total Score:** \`${gfgStats.score}\`
+- **Profile:** [View Profile](https://auth.geeksforgeeks.org/user/jatinagrawalbybj)
 
 </td>
 </tr>
@@ -134,31 +167,16 @@ async function fetchData() {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=jatinagrawal-py&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jatinagrawal-py&layout=compact&theme=tokyonight"/>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jatinagrawal-py&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&cache_seconds=86400)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jatinagrawal-py&layout=compact&theme=tokyonight&cache_seconds=86400)
 
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jatinagrawal-py&theme=tokyonight)](https://git.io/streak-stats)
-
-</div>
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jatinagrawal-py&theme=tokyonight&cache_seconds=86400)
 
 ### 🏆 GitHub Trophies
-<div align="center">
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=jatinagrawal-py&theme=tokyonight&row=2&column=4&margin-w=15&margin-h=15&cache_seconds=86400)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=jatinagrawal-py&theme=tokyonight&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-## 📊 Contribution Graph
-
-<div align="center">
-
-[![Jatin's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=jatinagrawal-py&theme=tokyo-night)](https://github.com/ashutosh00710/github-readme-activity-graph)
+### 📊 Contribution Graph
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=jatinagrawal-py&theme=tokyo-night&cache_seconds=86400)
 
 </div>
 
@@ -191,12 +209,7 @@ async function fetchData() {
 <div align="center">
 
 ### 💡 Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
----
-
-### 🐍 Contribution Snake
-![Snake animation](https://github.com/jatinagrawal-py/jatinagrawal-py/blob/output/github-contribution-grid-snake.svg)
+![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&cache_seconds=86400)
 
 ---
 
