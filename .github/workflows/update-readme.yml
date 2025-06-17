@@ -9,18 +9,25 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - run: npm install node-fetch
-      - run: node update-readme.js
-      - run: |
-          git config --global user.name "Jatin Agrawal"
-          git config --global user.email "jatinagrawal0987654321@gmail.com"
-          git pull origin main
+      - name: Checkout repository
+        uses: actions/checkout@v3
+    
+      - name: Update README
+        run: |
+          # Perform changes to README.md here
+          echo "Updating README..."
+    
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
           git add README.md
-          git commit -m "📈 Auto update README" || echo "No changes"
-          git push
+          git commit -m "Update README file"
+    
+      - name: Pull latest changes
+        run: |
+          git pull origin main --rebase
+    
+      - name: Push changes
+        run: |
+          git push origin main
