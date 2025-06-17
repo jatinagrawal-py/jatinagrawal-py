@@ -19,8 +19,8 @@ async function fetchData() {
       if (gfgResponse.ok) {
         const gfgData = await gfgResponse.json();
         gfgStats = {
-          solved: gfgData.totalProblemsSolved || 0,
-          score: gfgData.totalScore || 0
+          solved: 119,
+          score: 299
         };
       }
     } catch (e) {
@@ -53,7 +53,10 @@ async function fetchData() {
 
     const README = `<div align="center">
 
-# 👋 Hello, I'm Jatin Agrawal
+<h2> Hi, I'm Jatin Agrawal! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+<p><em>I am a 3rd-year B.Tech student at <a href="https://www.mnit.ac.in/">NIT Jaipur</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Pursuing<a 
+href="#"> Artificial intelligence and Data engineering </a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+</em></p>
 
 ### 🚀 Passionate Developer | Competitive Programmer | Problem Solver
 
@@ -101,7 +104,7 @@ async function fetchData() {
 - **Problems Solved:** \`${leet.totalSolved || 0}\`
 - **Easy:** \`${leet.easySolved || 0}\` | **Medium:** \`${leet.mediumSolved || 0}\` | **Hard:** \`${leet.hardSolved || 0}\`
 - **Global Ranking:** \`~${leet.ranking || 'N/A'}\`
-- **Acceptance Rate:** \`${acceptanceRate}%\`
+- **Acceptance Rate:** \`70.31\`
 
 </td>
 <td width="33%">
