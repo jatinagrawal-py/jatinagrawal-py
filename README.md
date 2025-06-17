@@ -1,6 +1,11 @@
 <div align="center">
 
-# 👋 Hello, I'm Jatin Agrawal
+
+
+<h2> Hi, I'm Jatin Agrawal! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+<img align='right' src="https://media.giphy.com/media/ieyl9zmCjO4b4t6qoY/giphy.gif" width="230">
+<p><em>Student at <a href="http://www.unb.br">NIT Jaipur</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Pursuing B-Tech in<a href="https://international.nubank.com.br/about/">Artificial intelligence and Data engineering</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+</em></p>
 
 ### 🚀 Passionate Developer | Competitive Programmer | Problem Solver
 
@@ -48,15 +53,15 @@
 - **Problems Solved:** `522`
 - **Easy:** `165` | **Medium:** `292` | **Hard:** `65`
 - **Global Ranking:** `~133869`
-- **Acceptance Rate:** `0%`
+- **Acceptance Rate:** `70.31%`
 
 </td>
 <td width="33%">
 
 #### 🟢 **GeeksforGeeks**
 - **Username:** `jatinagrawalbybj`
-- **Problems Solved:** `0`
-- **Total Score:** `0`
+- **Problems Solved:** `119`
+- **Total Score:** `299`
 - **Profile:** [View Profile](https://auth.geeksforgeeks.org/user/jatinagrawalbybj)
 
 </td>
