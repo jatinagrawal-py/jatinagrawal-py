@@ -121,10 +121,9 @@ async function fetchData() {
 <div align="center">
 
 #### LeetCode Progress Bar
-![Easy](https://progress-bar.dev/${Math.min(Math.round((leet.easySolved || 0) / 8), 100)}/?scale=100&title=Easy&width=200&color=00b300&suffix=/${leet.easySolved || 0})
-![Medium](https://progress-bar.dev/${Math.min(Math.round((leet.mediumSolved || 0) / 17), 100)}/?scale=100&title=Medium&width=200&color=ff8c00&suffix=/${leet.mediumSolved || 0})
-![Hard](https://progress-bar.dev/${Math.min(Math.round((leet.hardSolved || 0) / 7), 100)}/?scale=100&title=Hard&width=200&color=ff0000&suffix=/${leet.hardSolved || 0})
-
+![Easy](https://img.shields.io/badge/Easy-${leet.easySolved || 0}-green)
+![Medium](https://img.shields.io/badge/Medium-${leet.mediumSolved || 0}-orange)
+![Hard](https://img.shields.io/badge/Hard-${leet.hardSolved || 0}-red)
 </div>
 
 ---
