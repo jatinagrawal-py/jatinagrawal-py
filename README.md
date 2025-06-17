@@ -68,10 +68,9 @@
 <div align="center">
 
 #### LeetCode Progress Bar
-![Easy](https://progress-bar.dev/21/?scale=100&title=Easy&width=200&color=00b300&suffix=/165)
-![Medium](https://progress-bar.dev/17/?scale=100&title=Medium&width=200&color=ff8c00&suffix=/292)
-![Hard](https://progress-bar.dev/9/?scale=100&title=Hard&width=200&color=ff0000&suffix=/65)
-
+![Easy](https://img.shields.io/badge/Easy-165-green)
+![Medium](https://img.shields.io/badge/Medium-292-orange)
+![Hard](https://img.shields.io/badge/Hard-65-red)
 </div>
 
 ---
@@ -162,6 +161,6 @@
 
 **⭐ From [jatinagrawal-py](https://github.com/jatinagrawal-py)**
 
-*Last Updated: June 17, 2025 at 05:41 PM IST*
+*Last Updated: June 17, 2025 at 05:50 PM IST*
 
 </div>
