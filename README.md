@@ -32,22 +32,32 @@
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%">
 
 #### 🟠 **Codeforces**
 - **Handle:** `jatinagrawal0987654321`
 - **Rating:** `983` 
 - **Rank:** `newbie`
 - **Max Rating:** `983`
+- **Problems Solved:** `38`
 
 </td>
-<td width="50%">
+<td width="33%">
 
 #### 🟡 **LeetCode** 
 - **Problems Solved:** `522`
 - **Easy:** `165` | **Medium:** `292` | **Hard:** `65`
 - **Global Ranking:** `~133869`
 - **Acceptance Rate:** `0%`
+
+</td>
+<td width="33%">
+
+#### 🟢 **GeeksforGeeks**
+- **Username:** `jatinagrawalbybj`
+- **Problems Solved:** `0`
+- **Total Score:** `0`
+- **Profile:** [View Profile](https://auth.geeksforgeeks.org/user/jatinagrawalbybj)
 
 </td>
 </tr>
@@ -104,31 +114,16 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=jatinagrawal-py&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jatinagrawal-py&layout=compact&theme=tokyonight"/>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jatinagrawal-py&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&cache_seconds=86400)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jatinagrawal-py&layout=compact&theme=tokyonight&cache_seconds=86400)
 
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jatinagrawal-py&theme=tokyonight)](https://git.io/streak-stats)
-
-</div>
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jatinagrawal-py&theme=tokyonight&cache_seconds=86400)
 
 ### 🏆 GitHub Trophies
-<div align="center">
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=jatinagrawal-py&theme=tokyonight&row=2&column=4&margin-w=15&margin-h=15&cache_seconds=86400)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=jatinagrawal-py&theme=tokyonight&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-## 📊 Contribution Graph
-
-<div align="center">
-
-[![Jatin's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=jatinagrawal-py&theme=tokyo-night)](https://github.com/ashutosh00710/github-readme-activity-graph)
+### 📊 Contribution Graph
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=jatinagrawal-py&theme=tokyo-night&cache_seconds=86400)
 
 </div>
 
@@ -161,17 +156,12 @@
 <div align="center">
 
 ### 💡 Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
----
-
-### 🐍 Contribution Snake
-![Snake animation](https://github.com/jatinagrawal-py/jatinagrawal-py/blob/output/github-contribution-grid-snake.svg)
+![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&cache_seconds=86400)
 
 ---
 
 **⭐ From [jatinagrawal-py](https://github.com/jatinagrawal-py)**
 
-*Last Updated: June 17, 2025 at 05:33 PM IST*
+*Last Updated: June 17, 2025 at 05:41 PM IST*
 
 </div>
