@@ -1,23 +1,30 @@
-name: Update README
+name: 📈 Update README
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "30 0 * * *"  # Daily at 6 AM IST
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
-      - run: npm install node-fetch
-      - run: node update-readme.js
-      - run: |
-          git config --global user.name "Jatin Agrawal"
-          git config --global user.email "jatinagrawal0987654321@gmail.com"
+          node-version: '18'
+      
+      - name: Install and Run
+        run: |
+          npm install node-fetch@2
+          node update-readme.js
+      
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
           git add README.md
-          git commit -m "📈 Auto update README" || echo "No changes"
+          git diff --staged --quiet || git commit -m "📈 Update README stats"
           git push
