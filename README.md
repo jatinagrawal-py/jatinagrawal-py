@@ -1,9 +1,8 @@
 <div align="center">
 
-
-
 <h2> Hi, I'm Jatin Agrawal! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
-<p><em>I am a 3rd-year B.Tech student at <a href="https://www.mnit.ac.in/">NIT Jaipur</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Pursuing<a href="#"> Artificial intelligence and Data engineering </a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+<p><em>I am a 3rd-year B.Tech student at <a href="https://www.mnit.ac.in/">NIT Jaipur</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Pursuing<a 
+href="#"> Artificial intelligence and Data engineering </a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
 ### 🚀 Passionate Developer | Competitive Programmer | Problem Solver
@@ -52,15 +51,15 @@
 - **Problems Solved:** `522`
 - **Easy:** `165` | **Medium:** `292` | **Hard:** `65`
 - **Global Ranking:** `~133869`
-- **Acceptance Rate:** `70.31%`
+- **Acceptance Rate:** `70.31`
 
 </td>
 <td width="33%">
 
 #### 🟢 **GeeksforGeeks**
 - **Username:** `jatinagrawalbybj`
-- **Problems Solved:** `119`
-- **Total Score:** `299`
+- **Problems Solved:** `0`
+- **Total Score:** `0`
 - **Profile:** [View Profile](https://auth.geeksforgeeks.org/user/jatinagrawalbybj)
 
 </td>
@@ -165,6 +164,6 @@
 
 **⭐ From [jatinagrawal-py](https://github.com/jatinagrawal-py)**
 
-*Last Updated: June 17, 2025 at 05:50 PM IST*
+*Last Updated: June 17, 2025 at 06:11 PM IST*
 
 </div>
