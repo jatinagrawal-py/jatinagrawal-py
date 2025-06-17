@@ -58,8 +58,8 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 #### 🟢 **GeeksforGeeks**
 - **Username:** `jatinagrawalbybj`
-- **Problems Solved:** `0`
-- **Total Score:** `0`
+- **Problems Solved:** `119`
+- **Total Score:** `299`
 - **Profile:** [View Profile](https://auth.geeksforgeeks.org/user/jatinagrawalbybj)
 
 </td>
@@ -164,6 +164,6 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 **⭐ From [jatinagrawal-py](https://github.com/jatinagrawal-py)**
 
-*Last Updated: June 17, 2025 at 06:11 PM IST*
+*Last Updated: June 17, 2025 at 06:13 PM IST*
 
 </div>
