@@ -111,8 +111,8 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 #### 🟢 **GeeksforGeeks**
 - **Username:** \`jatinagrawalbybj\`
-- **Problems Solved:** \`${gfgStats.solved}\`
-- **Total Score:** \`${gfgStats.score}\`
+- **Problems Solved:** \`119\`
+- **Total Score:** \`299\`
 - **Profile:** [View Profile](https://auth.geeksforgeeks.org/user/jatinagrawalbybj)
 
 </td>
