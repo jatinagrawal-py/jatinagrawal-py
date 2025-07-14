@@ -48,9 +48,9 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 <td width="33%">
 
 #### 🟡 **LeetCode** 
-- **Problems Solved:** `623`
-- **Easy:** `190` | **Medium:** `351` | **Hard:** `82`
-- **Global Ranking:** `~91850`
+- **Problems Solved:** `624`
+- **Easy:** `190` | **Medium:** `352` | **Hard:** `82`
+- **Global Ranking:** `~90465`
 - **Acceptance Rate:** `70.31`
 
 </td>
@@ -72,7 +72,7 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 #### LeetCode Progress Bar
 ![Easy](https://img.shields.io/badge/Easy-190-green)
-![Medium](https://img.shields.io/badge/Medium-351-orange)
+![Medium](https://img.shields.io/badge/Medium-352-orange)
 ![Hard](https://img.shields.io/badge/Hard-82-red)
 </div>
 
@@ -164,6 +164,6 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 **⭐ From [jatinagrawal-py](https://github.com/jatinagrawal-py)**
 
-*Last Updated: July 13, 2025 at 07:09 AM IST*
+*Last Updated: July 14, 2025 at 06:57 AM IST*
 
 </div>
