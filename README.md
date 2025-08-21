@@ -48,9 +48,9 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 <td width="33%">
 
 #### 🟡 **LeetCode** 
-- **Problems Solved:** `754`
-- **Easy:** `215` | **Medium:** `423` | **Hard:** `116`
-- **Global Ranking:** `~57597`
+- **Problems Solved:** `755`
+- **Easy:** `215` | **Medium:** `424` | **Hard:** `116`
+- **Global Ranking:** `~56318`
 - **Acceptance Rate:** `70.31`
 
 </td>
@@ -72,7 +72,7 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 #### LeetCode Progress Bar
 ![Easy](https://img.shields.io/badge/Easy-215-green)
-![Medium](https://img.shields.io/badge/Medium-423-orange)
+![Medium](https://img.shields.io/badge/Medium-424-orange)
 ![Hard](https://img.shields.io/badge/Hard-116-red)
 </div>
 
@@ -133,11 +133,13 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 ## 🎯 Current Focus
 
+<div align="center">
 - 🔭 Working on **Full Stack Web Development Projects**
 - 🌱 Learning **Advanced Data Structures & Algorithms**
 - 👯 Looking to collaborate on **Open Source Projects**
 - 💬 Ask me about **Competitive Programming, Web Development**
 - ⚡ Fun fact: **I debug with console.log() and I'm not ashamed! 😄**
+</div>
 
 ---
 
@@ -150,9 +152,9 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 ---
 
 ## 🎵 Currently Vibing To
-
+<div align="center">
 [![Spotify](https://spotify-now-playing-steel.vercel.app/api/spotify)](https://open.spotify.com/user/your-spotify-username)
-
+</div>
 ---
 
 <div align="center">
@@ -164,6 +166,6 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 **⭐ From [jatinagrawal-py](https://github.com/jatinagrawal-py)**
 
-*Last Updated: August 21, 2025 at 06:45 AM IST*
+*Last Updated: August 21, 2025 at 06:44 PM IST*
 
 </div>
