@@ -133,13 +133,13 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 ## 🎯 Current Focus
 
-<div align="center">
+
 - 🔭 Working on **Full Stack Web Development Projects**
 - 🌱 Learning **Advanced Data Structures & Algorithms**
 - 👯 Looking to collaborate on **Open Source Projects**
 - 💬 Ask me about **Competitive Programming, Web Development**
 - ⚡ Fun fact: **I debug with console.log() and I'm not ashamed! 😄**
-</div>
+
 
 ---
 
@@ -152,9 +152,9 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 ---
 
 ## 🎵 Currently Vibing To
-<div align="center">
+
 [![Spotify](https://spotify-now-playing-steel.vercel.app/api/spotify)](https://open.spotify.com/user/your-spotify-username)
-</div>
+
 ---
 
 <div align="center">
@@ -166,6 +166,6 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 **⭐ From [jatinagrawal-py](https://github.com/jatinagrawal-py)**
 
-*Last Updated: August 21, 2025 at 06:44 PM IST*
+*Last Updated: August 21, 2025 at 06:46 PM IST*
 
 </div>
