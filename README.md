@@ -50,7 +50,7 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 #### 🟡 **LeetCode** 
 - **Problems Solved:** `916`
 - **Easy:** `256` | **Medium:** `506` | **Hard:** `154`
-- **Global Ranking:** `~33570`
+- **Global Ranking:** `~33607`
 - **Acceptance Rate:** `70.31`
 
 </td>
@@ -166,6 +166,6 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 **⭐ From [jatinagrawal-py](https://github.com/jatinagrawal-py)**
 
-*Last Updated: November 6, 2025 at 06:48 AM IST*
+*Last Updated: November 7, 2025 at 06:47 AM IST*
 
 </div>
