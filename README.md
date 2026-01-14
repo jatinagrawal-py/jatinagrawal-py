@@ -39,7 +39,7 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 #### 🟠 **Codeforces**
 - **Handle:** `jatinagrawal0987654321`
-- **Rating:** `1337` 
+- **Rating:** `1236` 
 - **Rank:** `pupil`
 - **Max Rating:** `1390`
 - **Problems Solved:** `149`
@@ -48,9 +48,9 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 <td width="33%">
 
 #### 🟡 **LeetCode** 
-- **Problems Solved:** `1029`
-- **Easy:** `286` | **Medium:** `579` | **Hard:** `164`
-- **Global Ranking:** `~24400`
+- **Problems Solved:** `1030`
+- **Easy:** `286` | **Medium:** `580` | **Hard:** `164`
+- **Global Ranking:** `~24333`
 - **Acceptance Rate:** `70.31`
 
 </td>
@@ -72,7 +72,7 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 #### LeetCode Progress Bar
 ![Easy](https://img.shields.io/badge/Easy-286-green)
-![Medium](https://img.shields.io/badge/Medium-579-orange)
+![Medium](https://img.shields.io/badge/Medium-580-orange)
 ![Hard](https://img.shields.io/badge/Hard-164-red)
 </div>
 
@@ -166,6 +166,6 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 **⭐ From [jatinagrawal-py](https://github.com/jatinagrawal-py)**
 
-*Last Updated: January 13, 2026 at 06:52 AM IST*
+*Last Updated: January 14, 2026 at 06:58 AM IST*
 
 </div>
