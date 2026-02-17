@@ -39,7 +39,7 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 #### 🟠 **Codeforces**
 - **Handle:** `jatinagrawal0987654321`
-- **Rating:** `1313` 
+- **Rating:** `1326` 
 - **Rank:** `pupil`
 - **Max Rating:** `1390`
 - **Problems Solved:** `183`
@@ -50,7 +50,7 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 #### 🟡 **LeetCode** 
 - **Problems Solved:** `1112`
 - **Easy:** `304` | **Medium:** `627` | **Hard:** `181`
-- **Global Ranking:** `~19274`
+- **Global Ranking:** `~19157`
 - **Acceptance Rate:** `70.31`
 
 </td>
@@ -166,6 +166,6 @@ href="#"> Artificial intelligence and Data engineering </a><img src="https://med
 
 **⭐ From [jatinagrawal-py](https://github.com/jatinagrawal-py)**
 
-*Last Updated: February 16, 2026 at 07:26 AM IST*
+*Last Updated: February 17, 2026 at 07:23 AM IST*
 
 </div>
